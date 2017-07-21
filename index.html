@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<title>Wild Circus</title>
+
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+	
+	<link rel="stylesheet" type="text/css" href="styletest.css"/>
+	<link rel="stylesheet" media="screen and (max-width: 900px)" href="resolution_smartphone.css" />
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
+
+	<style> 
+	#title1, #title2, h3 {
+		font-family: 'Bungee Inline', cursive;
+	}
+	#banniere_menu li, #banniere_menu ul li ul, #my_account, #follow_us, #robozzle a, #contact h2 a, #infolink, .about_us, .description {
+		font-family: 'Kurale', serif;
+	}
+	</style>
+	
+</head>
+
+<body>
+
+<div id="page">
+
+	<header id="fond_header">
+
+		<h1 id="title1">Wild</h1>
+		<h1 id="title2">Circus</h1>
+
+		<div id="banniere_menu">
+			<ul>
+				<li id="linkhome"><a href="#fond_header">Home</a></li>
+				<li id="linkshows"><a href="#falling_men2">Shows</a>
+					<ul id="select_shows">
+						<li><a href="#falling_men2">The Falling Men</a></li>
+						<li><a href="#lion_zebra2">The Lion Zebra</a></li>
+						<li><a href="#clown">The Clown</a></li>
+					</ul>
+				</li>
+				<li><a href="https://www.ticketmaster.fr" target="blank">Tickets</a></li>
+				<li><a href="#infolink">About us</a></li>
+				<li><a href="mailto:mathieuheyte3@gmail.fr">Contact us</a></li>
+				<li><a href="#my_account">My account</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<div id="Shows">
+		<section>
+			<p id="falling_men2">
+				<img src="images/the_falling_men2.jpg" alt="The Falling Men"/>
+			</p>
+			<div class="conteneur">
+				<h3>The Falling-Men</h3>
+				<p class="description">
+				Deep within a forest a top a volcano, exists an extraordinary world, where anything is possible. From the sky falls a solitary young man, and the story begins. On this day at the edge of time, in this place of all possibilities, begins an inspired incantation to life rediscovered.
+				</p>
+				<div  class="buy_tickets">
+					<a href="https://www.ticketmaster.fr" target="blank"><img src="images/bouton_buy_tickets.png" alt="buy_tickets"/></a>
+				</div>
+			</div>
+			
+		</section>
+			 
+		<section>
+			<p id="lion_zebra2">
+				<img src="images/lion_zebra2.jpg" alt="The Lion Zebra"/>
+			</p>
+			<div class="conteneur">
+			<h3>The Lion-Zebra</h3>
+			<p class="description"> 
+			Hallucination in savana : pay special attention to the <strong>Zebrion</strong>, a lion with zebra camouflage! Zebrions are a rare species, with only an estimated 10 in the wild.  Many say they’re a messenger of God in Africa, holding the mission of protecting and promoting the world.  These four, all born at a France Zoo in 2010, have been kept at a breeding facility since they were six months old.  They’ve been with the circus since their debut in Bordeaux in 2012.
+			</p>
+			<div  class="buy_tickets">
+				<a href="https://www.ticketmaster.fr" target="blank"><img src="images/bouton_buy_tickets.png" alt="buy_tickets"/></a>
+			</div>
+			</div>
+		</section>
+			
+		<section>
+			<p id="clown">
+				<img src="images/clown_cirque_du_soleil2.jpg" alt="Clown"/>
+			</p>
+			<div class="conteneur">
+			<h3>The Clown</h3>
+			<p class="description">
+			A return to our origins, this amazing show combines acrobatic performance and the art of clowning, while exploring fear, identity, recognition and power. The Innocent's journey brings him into contact with comic characters from an electrifying world full of surprises, thrills, audacity and total involvement.
+			</p>
+			<div  class="buy_tickets">
+				<a href="https://www.ticketmaster.fr" target="blank"><img src="images/bouton_buy_tickets.png" alt="buy_tickets"/></a>
+			</div>
+			</div>
+		</section>
+	</div>
+
+	<footer>
+
+		<div id="my_account">
+			<h2>My account</h2>
+			<form method="post" action="taritement.php">
+				<label for="email">Your email :</label>
+				<input type="email" name="email" placeholder="johnsmith@gmail.com"/>
+				</br>
+				<label for="password">Your password :</label>
+				<input type="text" name="password" required/></br>
+				<input type="submit" value="Send"/>
+			</form>
+		</div>
+
+		<div id="follow_us">
+			<h2>You can follow us</h2>
+			<p id="links">
+				<a href="https://fr-fr.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
+				<a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="Twitter"></a>
+				<a href="https://www.instagram.com/?hl=en"><img src="images/instagram.png" alt="Instagram"></a>
+			</p>
+		</div>
+
+		<div id="robozzle">
+			<h2><a href="http://www.robozzle.com/user.aspx?name=Math8"  target="blank">Robozzle</a></h2>
+		</div>
+
+		<div id="about_us">
+			<h2><a href="#about_us" id="infolink">About us</a></h2>
+			<p class="about_us">The Wild Circus was created in Bordeaux in 2012, thanks to the energy and creativity of its two founders Oscar Wilde and Martin Circus. Our circus company is so much more than a traditional circus troup : it's a field of dreams, a striking, dramatic mix of circus arts and street performance that featured wild, outrageous costumes, magical lighting, and original music.  The essence of our shows has stayed constant since the beginning of the Wild Circus adventure: we invoke the imagination, provoke the senses and evoke the emotions of people around the world.</p>
+		</div>
+
+		<div id="contact">
+			<h2><a href="mailto:mathieu.heyte@hotmail.fr">Contact us</a></h2>
+		</div>
+
+	</footer>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="jquerytest.js"></script>
+
+</div>
+
+</body>
+
+</html>
